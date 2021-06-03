@@ -1,0 +1,84 @@
+/********** FOR ALL ELEMENT **********/
+*{
+    padding: 0;
+    margin: 0;
+}
+/********** BANNER PAGE **********/
+.banner {
+    height: 80vh;
+    width: 100%;
+    background: url('../../Images/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 92%;
+}
+.banner .info{
+    margin-top: 7%;
+    transform: translateY(-7%);
+}
+.banner .info p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #CAC2B5;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.banner .info h2{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.banner .info .order {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background: #e91d43;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.banner .info a:hover {
+    background-color: #931621;
+}
+
+
+/************ MIDDLE SECTION ***************/
+.trend h2{
+    margin-top: 5rem;
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+.trend p{
+    margin-bottom: 2rem;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+/************ TRENDING FOOD_LIST SECTION ***************/
+ /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+#food-list{
+    padding: 30px 0px;
+}
+.card-body{
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0,2);
+}
+.card{
+    margin: 20px 10px;
+    background-color: #FFFDED;
+}
+img{
+    height: 14rem;
+}
+h5{
+    text-align: center;
+}
+
+/************ NAVBAR ***************/
+.logo{
+    height: 2.5rem;
+    width: 2.5rem;
+}

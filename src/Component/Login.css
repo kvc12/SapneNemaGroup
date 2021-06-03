@@ -1,0 +1,6 @@
+.svg{
+  width: 97vw;
+  height: 100vh;
+  position:absolute;
+  z-index: -1;
+}
